@@ -2,7 +2,7 @@ from IPython.core.display import HTML, Markdown
 from aocd.models import Puzzle
 from bs4 import BeautifulSoup
 
-from common.matrix import Matrix
+from matrix import Matrix
 
 
 class InputReader:
@@ -28,6 +28,14 @@ class InputReader:
         :return:
         """
         return "".join(self.input_data)
+
+    def as_chrs(self) -> list:
+        """
+        Read input as list of strings
+
+        :return:
+        """
+        return list("".join(self.input_data))
 
     def lines_as_int(self) -> list:
         """
