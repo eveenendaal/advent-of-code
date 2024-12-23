@@ -47,7 +47,16 @@ tasks:
         vars:
           DAY:
             sh: date "+%d"
+          YEAR:
+            sh: date "+%Y"
   day.run.all:
     desc: Run all days
+    dir: "{{.YEAR}}"
     cmds:
-      - for i in day_*.ipynb; do jupyter execute --inplace $i; done
+      - |
+        for i in day_*.ipynb; do
+          jupyter execute --inplace $i;
+        done
+    requires:
+      vars: [ YEAR ]
+
