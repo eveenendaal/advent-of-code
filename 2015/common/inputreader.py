@@ -29,6 +29,14 @@ class InputReader:
         """
         return "".join(self.input_data)
 
+    def as_chrs(self) -> list:
+        """
+        Read input as list of strings
+
+        :return:
+        """
+        return list("".join(self.input_data))
+
     def lines_as_int(self) -> list:
         """
         Read input as list of integers
