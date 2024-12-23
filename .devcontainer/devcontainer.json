@@ -1,0 +1,26 @@
+{
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/eitsupi/devcontainer-features/go-task:latest": {}
+  },
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "4gb",
+    "storage": "32gb"
+  },
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "python3 -m pip install -r requirements.txt",
+  "postCreateCommand": "",
+  "customizations": {
+    "codespaces": {
+      "openFiles": []
+    },
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python",
+        "GitHub.copilot"
+      ]
+    }
+  }
+}
