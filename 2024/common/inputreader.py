@@ -2,7 +2,7 @@ from IPython.core.display import HTML, Markdown
 from aocd.models import Puzzle
 from bs4 import BeautifulSoup
 
-from matrix import Matrix
+from common.matrix import Matrix
 
 
 class InputReader:

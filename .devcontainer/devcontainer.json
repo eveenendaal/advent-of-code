@@ -9,7 +9,7 @@
     "storage": "32gb"
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "python3 -m pip install -r requirements.txt",
+  "updateContentCommand": "python -m pip install -r requirements.txt && python -m venv .venv",
   "postCreateCommand": "",
   "customizations": {
     "codespaces": {
@@ -19,7 +19,8 @@
       "extensions": [
         "ms-toolsai.jupyter",
         "ms-python.python",
-        "GitHub.copilot"
+        "GitHub.copilot",
+        "donjayamanne.python-environment-manager"
       ]
     }
   }
