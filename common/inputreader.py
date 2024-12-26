@@ -108,6 +108,12 @@ class PuzzleWrapper:
     def get_code_block(self, block_number: int, min_length=30) -> InputReader:
         blocks = self.get_code_blocks(min_length)
         return InputReader(blocks[block_number])
+    
+    def print_code_blocks(self, min_length=30):
+        display(Markdown(f"## Code Blocks"))
+        for i, block in enumerate(self.get_code_blocks(min_length)):
+            display(Markdown(f"### Block {i}"))
+            display(Markdown(f"```{block}```"))
 
     def print_article(self, part: int):
         files = [
