@@ -45,21 +45,27 @@ class InputReader:
         """
         return list(map(int, self.input_data))
 
-    def lines_as_ints(self) -> list:
+    def lines_as_ints(self, delimiter=None) -> list:
         """
         Read input as list of lists of integers
 
         :return:
         """
-        return [list(map(int, x.split())) for x in self.input_data]
+        if delimiter is None:
+            return [list(map(int, x)) for x in self.input_data]
+        else:
+            return [list(map(int, x.split(delimiter))) for x in self.input_data]
 
-    def lines_as_strs(self) -> list:
+    def lines_as_strs(self, delimiter=None) -> list:
         """
         Read input as list of lists of integers
 
         :return:
         """
-        return [list(x.split()) for x in self.input_data]
+        if delimiter is None:
+            return [list(x) for x in self.input_data]
+        else:
+            return [list(x.split(delimiter)) for x in self.input_data]
 
     def matrix(self) -> Matrix:
         """
