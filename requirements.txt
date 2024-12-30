@@ -11,4 +11,4 @@ beautifulsoup4==4.12.3
 sympy==1.13.3
 networkx==3.4.2
 pydot==3.0.3
-inflect==7.4.0
+inflect==7.5.0
