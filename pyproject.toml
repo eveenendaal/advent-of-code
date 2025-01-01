@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "aoc"
+version = "0.1.0"
+description = ""
+authors = ["Eric Veenendaal <eric@ericveenendaal.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+jupyter = "^1.1.1"
+ipywidgets = "^8.1.5"
+matplotlib = "^3.10.0"
+pandas = "^2.2.3"
+tqdm = "^4.67.1"
+pandas-gbq = "^0.26.0"
+advent-of-code-data = "^2.0.4"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+sympy = "^1.13.3"
+networkx = "^3.4.2"
+pydot = "^3.0.3"
+inflect = "^7.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

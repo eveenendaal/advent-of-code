@@ -17,7 +17,7 @@ updates:
       - "eveenendaal"
     schedule:
       interval: weekly
-  - package-ecosystem: "pip"
+  - package-ecosystem: "poetry"
     directory: "/"
     assignees:
       - "eveenendaal"
