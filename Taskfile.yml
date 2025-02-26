@@ -3,10 +3,6 @@
 version: '3'
 
 tasks:
-  venv.create:
-    desc: Create virtual environment
-    cmds:
-      - python -m venv .venv
   install:
     desc: Install dependencies
     run: once
