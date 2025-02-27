@@ -3,15 +3,6 @@
 version: '3'
 
 tasks:
-  install:
-    desc: Install dependencies
-    run: once
-    cmds:
-      - poetry install
-  update:
-    desc: Update dependencies
-    cmds:
-      - poetry update
   clean:
     desc: Clean up
     cmds:
