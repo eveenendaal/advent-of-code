@@ -52,7 +52,7 @@ class InputReader:
         :return:
         """
         if delimiter is None:
-            return [list(map(int, x)) for x in self.input_data]
+            return [list(map(int, x.split())) for x in self.input_data]
         else:
             return [list(map(int, x.split(delimiter))) for x in self.input_data]
 
