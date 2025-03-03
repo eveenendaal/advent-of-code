@@ -11,9 +11,15 @@ updates:
       - "eveenendaal"
     schedule:
       interval: weekly
+      day: saturday
+      time: "06:00"
+      timezone: "Europe/Amsterdam"
   - package-ecosystem: "devcontainers"
     directory: "/"
     assignees:
       - "eveenendaal"
     schedule:
       interval: weekly
+      day: saturday
+      time: "06:00"
+      timezone: "Europe/Amsterdam"
