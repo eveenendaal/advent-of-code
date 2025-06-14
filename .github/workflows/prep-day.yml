@@ -33,10 +33,7 @@ jobs:
           cache: 'pip'
 
       - name: Install Task
-        uses: arduino/setup-task@v2
-        with:
-          version: 3.x
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+        run: pip install go-task-bin
 
       - name: Prepare Notebook
         run: task setup.today
