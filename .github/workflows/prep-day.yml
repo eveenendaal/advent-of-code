@@ -41,7 +41,7 @@ jobs:
       - name: Prepare Notebook
         run: task setup.today
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v6
         continue-on-error: true
         id: auto-commit-action
         with:
