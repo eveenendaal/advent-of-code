@@ -3,11 +3,6 @@ name: Prep Notebook
 on:
   schedule:
     - cron: '0 4 1-25 12 *' # This will run the workflow every day at 5am
-  push:
-    branches:
-      - master
-    paths:
-      - '.github/workflows/prep-day.yml'
   workflow_dispatch:
 
 concurrency:
