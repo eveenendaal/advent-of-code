@@ -18,7 +18,7 @@ My personal solutions to the [Advent of Code](https://adventofcode.com/) puzzles
 | 2016 | 1/25      | █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 4% |
 | 2015 | 5/25      | █████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 20% |
 
-**Total: 39/275 puzzles completed**
+**Total: 40/275 puzzles completed**
 
 ## Repository Structure
 
@@ -35,7 +35,7 @@ My personal solutions to the [Advent of Code](https://adventofcode.com/) puzzles
 
 ## Technology Stack
 
-- **Python 3.12+** - Primary language
+- **Python 3.13+** - Primary language
 - **Jupyter Notebooks** - Interactive development and presentation
 - **UV** - Fast Python package manager
 - **Task** - Task automation (setup, testing)
@@ -52,7 +52,7 @@ My personal solutions to the [Advent of Code](https://adventofcode.com/) puzzles
 
 ### Prerequisites
 
-- Python 3.12 or higher
+- Python 3.13 or higher
 - [Task](https://taskfile.dev/) (for automation)
 - [UV](https://docs.astral.sh/uv/) (recommended) or pip
 
