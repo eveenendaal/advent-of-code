@@ -1,7 +1,8 @@
 {
   "image": "mcr.microsoft.com/vscode/devcontainers/universal:2",
   "features": {
-    "ghcr.io/eitsupi/devcontainer-features/go-task:latest": {}
+    "ghcr.io/eitsupi/devcontainer-features/go-task:latest": {},
+    "ghcr.io/astral-sh/uv/install:latest": {}
   },
   "hostRequirements": {
     "cpus": 2,
@@ -9,7 +10,7 @@
     "storage": "32gb"
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "python -m pip install -r requirements.txt && python -m venv .venv",
+  "updateContentCommand": "uv sync",
   "postCreateCommand": "",
   "customizations": {
     "codespaces": {
@@ -20,7 +21,8 @@
         "ms-toolsai.jupyter",
         "ms-python.python",
         "GitHub.copilot",
-        "donjayamanne.python-environment-manager"
+        "donjayamanne.python-environment-manager",
+        "charliermarsh.ruff"
       ]
     }
   }
