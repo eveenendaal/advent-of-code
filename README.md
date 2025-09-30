@@ -27,6 +27,9 @@ My personal solutions to the [Advent of Code](https://adventofcode.com/) puzzles
 ├── common/             # Shared utilities
 │   ├── inputreader.py  # Input parsing utilities
 │   └── matrix.py       # Matrix/grid helper functions
+├── template.ipynb      # Template for new solutions
+├── create_day.py       # Script to create new day notebooks
+├── CONTRIBUTING.md     # Guide for creating solutions
 └── pyproject.toml      # Project dependencies
 ```
 
@@ -81,14 +84,43 @@ Open any Jupyter notebook and run all cells:
 jupyter notebook 2024/day_01.ipynb
 ```
 
+### Creating New Solutions
+
+Use the provided script to create a new solution from the template:
+
+```bash
+python create_day.py <year> <day>
+
+# Example:
+python create_day.py 2024 15
+```
+
+This creates a properly structured notebook with:
+- Problem header and description
+- Organized input processing section
+- Part 1 and Part 2 sections with test/real case separation
+- Easter eggs section
+- Markdown documentation cells
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on creating solutions.
+
 ## Solution Structure
 
-Each solution follows a consistent structure:
+Each solution follows a consistent structure with clear sections:
 
-1. **Input Processing** - Parse problem input using `InputReader`
-2. **Part 1** - Solve the first part with test cases
-3. **Part 2** - Solve the second part with test cases
-4. **Easter Eggs** - Display any hidden messages from the problem
+1. **Header** - Problem title and description (from AoC website)
+2. **Setup** - Initialize puzzle wrapper and fetch problem
+3. **Input Processing** - Parse problem input using `InputReader`
+   - Separate `parse_input()` function for reusability
+   - Test with example data
+4. **Part 1** - Solve the first part
+   - Solution function with debug parameter
+   - Test case cell with example input
+   - Real input cell with assertions
+5. **Part 2** - Solve the second part (same structure as Part 1)
+6. **Easter Eggs** - Display any hidden messages from the problem
+
+Each section uses **markdown cells** for documentation and **code cells** for implementation, making notebooks easy to read and navigate.
 
 ## Useful Links
 
