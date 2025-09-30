@@ -1,0 +1,14 @@
+advent-of-code-data>=2.1.0
+beautifulsoup4>=4.13.3
+inflect>=7.5.0
+ipywidgets>=8.1.5
+jupyter>=1.1.1
+matplotlib>=3.10.0
+networkx>=3.4.2
+notebook>=7.3.2
+pandas>=2.2.3
+pandas-gbq>=0.28.0
+pydot>=3.0.4
+requests>=2.32.3
+sympy>=1.13.3
+tqdm>=4.67.1
