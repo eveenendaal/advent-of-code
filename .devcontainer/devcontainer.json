@@ -1,5 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/python:3.13",
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:2",
   "features": {
     "ghcr.io/eitsupi/devcontainer-features/go-task:latest": {},
     "ghcr.io/astral-sh/uv/install:latest": {}

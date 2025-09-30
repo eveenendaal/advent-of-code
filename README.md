@@ -54,7 +54,7 @@ My personal solutions to the [Advent of Code](https://adventofcode.com/) puzzles
 ### Using GitHub Codespaces or Dev Containers
 
 The easiest way to get started is using GitHub Codespaces or VS Code Dev Containers. The repository includes a pre-configured devcontainer that automatically:
-- Sets up Python 3.13
+- Sets up a universal development environment with Python support
 - Installs UV package manager
 - Installs all dependencies via `uv sync`
 - Configures Jupyter and Python extensions
