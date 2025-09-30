@@ -28,8 +28,6 @@ My personal solutions to the [Advent of Code](https://adventofcode.com/) puzzles
 ├── common/             # Shared utilities
 │   ├── inputreader.py  # Input parsing utilities
 │   └── matrix.py       # Matrix/grid helper functions
-├── template.ipynb      # Template for new solutions
-├── Taskfile.yml        # Task automation
 └── pyproject.toml      # Project dependencies
 ```
 
@@ -38,7 +36,6 @@ My personal solutions to the [Advent of Code](https://adventofcode.com/) puzzles
 - **Python 3.13+** - Primary language
 - **Jupyter Notebooks** - Interactive development and presentation
 - **UV** - Fast Python package manager
-- **Task** - Task automation (setup, testing)
 
 ### Key Dependencies
 
@@ -53,7 +50,6 @@ My personal solutions to the [Advent of Code](https://adventofcode.com/) puzzles
 ### Prerequisites
 
 - Python 3.13 or higher
-- [Task](https://taskfile.dev/) (for automation)
 - [UV](https://docs.astral.sh/uv/) (recommended) or pip
 
 ### Installation
@@ -81,27 +77,9 @@ My personal solutions to the [Advent of Code](https://adventofcode.com/) puzzles
 
 ### Running Solutions
 
-#### Individual Solutions
 Open any Jupyter notebook and run all cells:
 ```bash
 jupyter notebook 2024/day_01.ipynb
-```
-
-#### Batch Execution
-Run all solutions for a specific year:
-```bash
-task day.run.all YEAR=2024
-```
-
-#### Creating New Solutions
-Set up a new day (auto-detects current date):
-```bash
-task setup.today
-```
-
-Or set up a specific day:
-```bash
-task setup.day DAY=01 YEAR=2024
 ```
 
 ## Solution Structure
