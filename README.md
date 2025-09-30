@@ -7,7 +7,6 @@ My personal solutions to the [Advent of Code](https://adventofcode.com/) puzzles
 | Year | Completed | Progress |
 |------|-----------|----------|
 | 2024 | 25/25 ⭐ | ████████████████████████████████ 100% |
-| 2025 | 1/25      | █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 4% |
 | 2023 | 1/25      | █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 4% |
 | 2022 | 2/25      | ██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 8% |
 | 2021 | 1/25      | █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 4% |
@@ -18,7 +17,7 @@ My personal solutions to the [Advent of Code](https://adventofcode.com/) puzzles
 | 2016 | 1/25      | █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 4% |
 | 2015 | 5/25      | █████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 20% |
 
-**Total: 40/275 puzzles completed**
+**Total: 39/250 puzzles completed**
 
 ## Repository Structure
 
