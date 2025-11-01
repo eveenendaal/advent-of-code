@@ -1,7 +1,23 @@
+# Python
 .venv
 *.pyc
-.env
-output.txt
-*.db*
 __pycache__
 *.egg-info/
+*.db*
+
+# Environment
+.env
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Build artifacts
+dist/
+build/
+
+# Output files
+output.txt

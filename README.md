@@ -23,11 +23,12 @@ My personal solutions to the [Advent of Code](https://adventofcode.com/) puzzles
 
 ```
 ├── 2015-2025/          # Solutions organized by year
-│   └── day_XX.ipynb    # Jupyter notebooks for each day
-├── common/             # Shared utilities
+│   └── day_XX.ipynb    # Jupyter notebooks for each day (25 per year)
+├── common/             # Shared utilities and helper functions
+│   ├── __init__.py     # Package initialization
 │   ├── inputreader.py  # Input parsing utilities
 │   └── matrix.py       # Matrix/grid helper functions
-└── pyproject.toml      # Project dependencies
+└── pyproject.toml      # Project dependencies and configuration
 ```
 
 ## Technology Stack
