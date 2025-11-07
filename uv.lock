@@ -1327,7 +1327,7 @@ wheels = [
 
 [[package]]
 name = "pandas-gbq"
-version = "0.29.2"
+version = "0.30.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "db-dtypes" },
@@ -1342,9 +1342,9 @@ dependencies = [
     { name = "pydata-google-auth" },
     { name = "setuptools" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a5/ff/a81b01f9657b1c4b3b021e604b15a4ad1e5ac086977acf5ab74265a00a51/pandas_gbq-0.29.2.tar.gz", hash = "sha256:a3a28e7de4f8456fc4b8e9b7472b9bc470d2566f89c4cd997599e504f5a0a706", size = 65625, upload-time = "2025-07-10T16:24:56.017Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ca/f1/d38e7c03a8055fea816dfc9b697c97b4fecfd6b881072a34945e11972e35/pandas_gbq-0.30.0.tar.gz", hash = "sha256:8fe811786e4ad2e0d4608e897534207d9fbe768ab3168f766a99f0cb4cd5ed20", size = 66582, upload-time = "2025-11-03T18:38:05.145Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/5b/e5/8f3607a8827ff499ee4b841599c5e2998bf6bf8a7d997215726039d72747/pandas_gbq-0.29.2-py3-none-any.whl", hash = "sha256:99f6b642bd8340e96c2acdf7d717108aa0d31c703c2f284817ba7dc3b16110b2", size = 40971, upload-time = "2025-07-10T16:24:55.047Z" },
+    { url = "https://files.pythonhosted.org/packages/24/10/38e5d6442ea389a070be7466bff55a8160146d446b33efc59980dbe05906/pandas_gbq-0.30.0-py3-none-any.whl", hash = "sha256:d9b4454b17aee3c23ef1dfcfd91df6e2b77f1e69e1e4b28467701cd75850664a", size = 41561, upload-time = "2025-11-03T18:38:03.811Z" },
 ]
 
 [[package]]
